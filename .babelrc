@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["env", {
+            "modules": "commonjs"
+        }],
+        "stage-0"
+    ],
+    "plugins": ["transform-async-to-generator", "transform-async-to-module-method"]
+}
